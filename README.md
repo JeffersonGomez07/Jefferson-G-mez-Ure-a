@@ -1,115 +1,77 @@
-# 🚀 Portfolio Personal - Systems Engineer
+Portafolio Personal - Desarrollador de Software y estudiante de Ingeniería en Sistemas
 
-![React](https://img.shields.io/badge/React-19.0-blue?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-5.4-purple?logo=vite)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss)
-![Three.js](https://img.shields.io/badge/Three.js-0.173-000000?logo=three.js)
-![GSAP](https://img.shields.io/badge/GSAP-3.14-88ce02?logo=greensock)
+Enlace: https://portafoliojgu.vercel.app/
 
-Un portafolio web de alto rendimiento, diseñado para exhibir proyectos de ingeniería y desarrollo de software con una experiencia visual inmersiva. Construido con las últimas tecnologías del ecosistema React.
+Portafolio web de alto rendimiento para mostrar proyectos de desarrollo e ingeniería de software, con animaciones e interacciones 3D. Construido con React, TypeScript y Vite para una experiencia rápida y moderna.
 
-🔗 **Live Demo:** [https://ciaphasc.github.io](https://ciaphasc.github.io)
+Sobre el proyecto
 
-## ⚡ Sobre el Proyecto
+Este portafolio representa mi identidad digital profesional. Combina arquitectura de software moderna con diseño UI/UX avanzado, incorporando animaciones fluidas y efectos 3D que crean una experiencia visual atractiva
 
-Este proyecto es una representación moderna de una identidad digital profesional. Combina una arquitectura de software sólida con diseño UI/UX avanzado, incorporando animaciones fluidas y efectos 3D para crear una narrativa visual atractiva.
+El objetivo es mostrar no solo mis técnicas en proyectos, sino también la capacidad de construir interfaces web complejas, performantes y visualmente agradables.
 
-El objetivo principal es demostrar no solo las habilidades técnicas a través de los proyectos listados, sino también la capacidad de construir interfaces web complejas, performantes y estéticamente agradables.
+Tecnologías y herramientas principales
 
-## 🛠️ Tecnologías y Herramientas
+React 19: Uso de las últimas características y mejoras en renderizado
 
-### Core
-- **React 19**: Aprovechando las últimas características como Server Components (si aplica) y mejoras en renderizado.
-- **TypeScript 5.7**: Tipado estático estricto para un código robusto y escalable.
-- **Vite 5.4**: Build tool de próxima generación para un desarrollo ultrarrápido.
+TypeScript 5.7: Tipado estático para código más seguro y escalable.
 
-### Estilos y Diseño
-- **TailwindCSS 3.4**: Framework de utilidades para un diseño rápido y consistente.
-- **PostCSS**: Procesamiento avanzado de CSS.
-- **Lucide React**: Iconografía moderna y ligera.
-- **Diseño Responsivo**: Adaptable a cualquier dispositivo y tamaño de pantalla.
+Vite 5.4: Herramienta de desarrollo ultrarrápida.
 
-### Animaciones y Efectos Visuales
-- **Three.js**: Renderizado de gráficos 3D en tiempo real (Fondo "Void" interactivo).
-- **GSAP (GreenSock Navigation Platform)**: Animaciones de alto rendimiento para interacciones complejas.
-- **Custom Hooks**: Hooks personalizados para animaciones de texto (Typewriter, Scramble, Stagger) y scroll reveal.
+Estilos y diseño
 
-## ✨ Características Principales
+TailwindCSS 3.4: Diseño rápido con clases utilitarias.
 
-- **🌌 Fondo 3D Interactivo**: Un entorno visual dinámico generado con Three.js que reacciona a la navegación.
-- **🚀 Navegación Fluida**: Sistema de navegación suave entre secciones (Hero, Projects, Lab, Contact).
-- **📝 Efectos de Texto Dinámicos**: Componentes reutilizables para efectos de escritura, desifrado (scramble) y aparición escalonada.
-- **🎨 Tema oscuro premium**: Paleta de colores cuidadosamente seleccionada (Dark aesthetic con acentos Indigo).
-- **📱 Mobile First**: Experiencia de usuario optimizada tanto para escritorio como para dispositivos móviles.
-- **🏗️ Arquitectura Modular**: Estructura de carpetas basada en funcionalidades (`features/`) para facilitar el mantenimiento y escalabilidad.
+PostCSS: Optimización de CSS.
 
-## 📂 Estructura del Proyecto
+Lucide React: Iconos modernos y livianos.
 
-El proyecto sigue una arquitectura organizada y escalable:
+Diseño Responsive: Adaptable a todos los dispositivos.
 
-```
-src/
-├── app/                    # Configuración principal de la aplicación
-├── features/               # Módulos principales de funcionalidad
-│   ├── contact/            # Sección de contacto
-│   ├── hero/               # Sección principal (Landing)
-│   ├── lab/                # Sección experimental
-│   ├── navigation/         # Componentes de navegación
-│   └── projects/           # Galería de proyectos
-├── shared/                 # Recursos compartidos
-│   ├── components/         # Componentes UI reutilizables (Animations, Backgrounds, etc.)
-│   ├── config/             # Configuraciones globales (Theme tokens)
-│   ├── data/               # Datos estáticos (Projects, Social links)
-│   ├── hooks/              # Custom Hooks (Scroll, Navigation)
-│   ├── lib/                # Utilidades y helpers
-│   └── types/              # Definiciones de tipos TypeScript
-└── main.tsx                # Punto de entrada
-```
+Animaciones y visuales
 
-## 🚀 Instalación y Desarrollo Local
+Three.js: Fondos y efectos 3D interactivos.
 
-Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+GSAP: Animaciones de alto rendimiento
 
-1.  **Clonar el repositorio:**
+Ganchos personalizados: Efectos de texto, revelación de desplazamiento y animaciones personalizadas.
 
-    ```bash
-    git clone https://github.com/CiaphasC/CiaphasC.github.io.git
-    cd CiaphasC.github.io
-    ```
+Características principales
 
-2.  **Instalar dependencias:**
+Fondo 3D interactivo: Entorno dinámico que responde a la navegación
 
-    ```bash
-    npm install
-    # o si usas pnpm (recomendado)
-    pnpm install
-    ```
+Navegación Fluida: Transiciones suaves entre secciones.
 
-3.  **Iniciar servidor de desarrollo:**
+Efectos de Texto: Escribir, desifrado (scramble) y aparición escalonada.
 
-    ```bash
-    npm run dev
-    ```
+Tema oscuro premium: Paleta Dark con acentos Indigo.
 
-    La aplicación estará disponible en `http://localhost:5173`.
+Mobile First: Optimizado para móviles y escritorio.
 
-## 📦 Construcción para Producción
+Arquitectura Modular: Estructura basada en funcionalidades para fácil mantenimiento.
 
-Para generar los archivos estáticos optimizados para producción:
+Estructura del Proyecto src/ ├── app/ # Configuración principal ├── características/ # Secciones principales │ ├── contacto/ # Contacto │ ├── hero/ # Landing page │ ├── lab/ # Experimentos │ ├── navegación/ # Componentes de navegación │ └── proyectos/ # Galería de proyectos ├── compartido/ # Recursos compartidos │ ├── componentes/ # Componentes UI y animaciones │ ├── config/ # Config global (tema) │ ├── datos/ # Datos estáticos │ ├── ganchos/# Ganchos personalizados │ ├── lib/ # Funciones helper │ └── tipos/ # Tipos TypeScript └── main.tsx # Punto de entrada Instalación y Desarrollo Local
 
-```bash
+Clonar repositorio:
+
+clon de git https://github.com/JeffersonGomez07/Jefferson-G-mez-Ure-a.git
+
+Instalar dependencias:
+
+npm install
+
+o pnpm install
+
+Iniciar servidor de desarrollo:
+
+npm run dev
+
+La aplicación estará disponible en http://localhost: 5173
+
+Producción
+
+Para compilar la versión optimizada:
+
 npm run build
-```
 
-Esto generará la carpeta `dist/` con el código minificado y listo para despliegue.
-
-## 👤 Autor
-
-**CiaphasC**
-
-- GitHub: [@CiaphasC](https://github.com/CiaphasC)
-
----
-
-Desarrollado con ❤️ y mucho café ☕.
+Los archivos finales se generarán en dist/
