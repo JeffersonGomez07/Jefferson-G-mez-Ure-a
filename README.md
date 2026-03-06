@@ -74,4 +74,4 @@ Para compilar la versión optimizada:
 
 npm run build
 
-Los archivos finales se generarán en dist/
+Los archivos finales se generarán en dist/.
