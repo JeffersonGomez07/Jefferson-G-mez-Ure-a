@@ -1,3 +1,4 @@
+Reaccionar TypeScript Vite TailwindCSS Three.js GSAP
 Portafolio Personal - Desarrollador de Software y estudiante de Ingenieria en Sistemas
 Link: https://portafoliojgu.vercel.app/
 
