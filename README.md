@@ -3,14 +3,6 @@ Link: https://portafoliojgu.vercel.app/
 
 
 
-
-
-
-
-
-
-
-
 Portafolio web de alto rendimiento para mostrar proyectos de desarrollo e ingeniería de software, con animaciones e interacciones 3D. Construido con React, TypeScript y Vite para una experiencia rápida y moderna.
 
 
