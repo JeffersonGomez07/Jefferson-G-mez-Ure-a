@@ -82,7 +82,8 @@ git clone https://github.com/JeffersonGomez07/Jefferson-G-mez-Ure-a.git
 Instalar dependencias:
 
 npm install
-# o pnpm install
+
+o pnpm install
 
 Iniciar servidor de desarrollo:
 
