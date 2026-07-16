@@ -118,7 +118,7 @@ export const projects: ReadonlyArray<Project> = [
   ],
   icon: ShoppingCart,
   theme: 'blue',
-  link: 'https://TU-LINK.vercel.app/',
+  link: 'https://github.com/JeffersonGomez07/saas-business-management',
   previewImage: '/saas.png',
   size: 'small',
 },
