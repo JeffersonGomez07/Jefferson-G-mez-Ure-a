@@ -15,7 +15,8 @@ export const stackCategories: ReadonlyArray<StackCategory> = [
     title: 'Frontend & UI',
     icon: Layout,
     items: [
-      'HTML / CSS / JavaScript',
+      'HTML / CSS',
+      'JavaScript / TypeScript',
       'React / Next.js',
       'Responsive Design',
     ],

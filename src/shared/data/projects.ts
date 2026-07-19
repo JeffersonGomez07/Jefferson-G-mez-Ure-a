@@ -30,6 +30,27 @@ export const projects: ReadonlyArray<Project> = [
     size: 'small',
   },
   {
+    title: 'SaaS',
+    subtitle: 'Sistema de Gestión Empresarial',
+    description:
+      'Aplicación SaaS full stack para la gestión de negocios. Incluye autenticación con JWT, dashboard interactivo, gestión de ventas, inventario, clientes, reportes financieros con exportación a PDF, notificaciones y configuración de usuario.',
+    tags: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'SQL Server',
+      'Tailwind CSS',
+      'JWT',
+      'Recharts'
+    ],
+    icon: Users,
+    theme: 'blue',
+    link: 'https://github.com/JeffersonGomez07/saas-business-management',
+    previewImage: '/saas.png',
+    size: 'large',
+  },
+  {
     title: 'Blog de Café',
     subtitle: 'Blog & Cursos Online',
     description:
@@ -101,25 +122,4 @@ export const projects: ReadonlyArray<Project> = [
     previewImage: '/frontendstore.png',
     size: 'small',
   },
-{
-  title: 'SaaS',
-  subtitle: 'Sistema de Gestión Empresarial',
-  description:
-    'Aplicación SaaS full stack para la gestión de negocios. Incluye autenticación con JWT, dashboard interactivo, gestión de ventas, inventario, clientes, reportes financieros con exportación a PDF, notificaciones y configuración de usuario.',
-  tags: [
-    'React',
-    'TypeScript',
-    'Node.js',
-    'Express',
-    'SQL Server',
-    'Tailwind CSS',
-    'JWT',
-    'Recharts'
-  ],
-  icon: ShoppingCart,
-  theme: 'blue',
-  link: 'https://github.com/JeffersonGomez07/saas-business-management',
-  previewImage: '/saas.png',
-  size: 'small',
-},
 ] as const;
